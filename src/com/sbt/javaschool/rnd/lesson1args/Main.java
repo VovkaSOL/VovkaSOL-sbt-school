@@ -1,5 +1,5 @@
-package com.sbt.javaschool.rnd.lesson1args;//                                                        /||\
-import com.sbt.javaschool.rnd.lesson1args.args.ArgsParser;//                                       // || \\
+package com.sbt.javaschool.rnd.lesson1args;//                                                              /||\
+import com.sbt.javaschool.rnd.lesson1args.args.ArgsParser;//                                             // || \\
 //                                                                                                      //  ||  \\
 public class Main {//                                                                                  //   ||   \\
     /*                                                                                                      ||

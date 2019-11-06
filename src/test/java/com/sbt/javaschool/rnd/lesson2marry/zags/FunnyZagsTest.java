@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 
-class FunnyZagsTest implements AllTests {
+class FunnyZagsTest  {
 
     @BeforeAll
     public static void beforeAll() {
@@ -20,7 +20,6 @@ class FunnyZagsTest implements AllTests {
 
 
     @Test
-    @Override
     public void MainClassTest() {
         FunnyZags fz= new FunnyZags();
         fz.AddPerson(new Person("Валера","Жирнобрюхов",21,"МУЖ"));

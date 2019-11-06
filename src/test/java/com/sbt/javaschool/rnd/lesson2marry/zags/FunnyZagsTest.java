@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 
-class FunnyZagsTest {
+class FunnyZagsTest implements AllTests {
 
     @BeforeAll
     public static void beforeAll() {
@@ -18,8 +18,10 @@ class FunnyZagsTest {
         System.out.println("FunnyZagsTest.class тестирование завершено");
     }
 
+
     @Test
-    void marry() {
+    @Override
+    public void MainClassTest() {
         FunnyZags fz= new FunnyZags();
         fz.AddPerson(new Person("Валера","Жирнобрюхов",21,"МУЖ"));
         Assertions.assertEquals(false, fz.Marry());//Одного нельзя женить
@@ -47,7 +49,7 @@ class FunnyZagsTest {
 
         fz.AddPerson(new Person("Валера","Жирнобрюхов",21,"МУЖ"))
                 .AddPerson(new Person("Наталья","Ротнезакрывайкина",20,"ЖЕН"));
-        Assertions.assertEquals(false, fz.Marry());//всё норм, женим, должно вывалиться
+        Assertions.assertEquals(true, fz.Marry());//всё норм, женим, должно вывалиться
 
     }
 }

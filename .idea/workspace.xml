@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/customiterator/CustomReverseIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test-classes/META-INF/VovkaSOL-sbt-school.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +42,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +68,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -94,10 +98,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Run lesson 3">
-    <configuration name="Run lesson 3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson3publichouse.Main" />
+    <configuration name="AllTestsFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson2marry.zags.AllTestsFactory" />
       <module name="VovkaSOL-sbt-school" />
-      <option name="PROGRAM_PARAMETERS" value="1 2 9 10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
@@ -129,21 +132,22 @@
       <item itemvalue="Application.Run lesson 1" />
       <item itemvalue="Application.Run lesson 2" />
       <item itemvalue="Application.Run lesson 3" />
+      <item itemvalue="Application.AllTestsFactory" />
       <item itemvalue="JUnit.Run lesson 2 Tests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Run lesson 3" />
-        <item itemvalue="Application.Run lesson 3" />
-        <item itemvalue="Application.Run lesson 3" />
-        <item itemvalue="Application.Run lesson 3" />
-        <item itemvalue="Application.Run lesson 3" />
+        <item itemvalue="Application.AllTestsFactory" />
+        <item itemvalue="Application.AllTestsFactory" />
+        <item itemvalue="Application.AllTestsFactory" />
+        <item itemvalue="Application.AllTestsFactory" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="" />
+      <changelist id="96c526d5-4f04-49c0-9f64-0d2dc7475ab8" name="Default Changelist" comment="" />
       <created>1573037111370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -177,14 +181,7 @@
       <option name="project" value="LOCAL" />
       <updated>1573050507647</updated>
     </task>
-    <task id="LOCAL-00005" summary="start SBS-L3 add log file, add some classes">
-      <created>1573219256420</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1573219256420</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -214,7 +211,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add maven and junit with 1 error" />
     <MESSAGE value="add junit and maven without errors" />
-    <MESSAGE value="start SBS-L3 add log file, add some classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="start SBS-L3 add log file, add some classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add junit and maven without errors" />
   </component>
 </project>

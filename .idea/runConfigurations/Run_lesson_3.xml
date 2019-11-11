@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run lesson 3" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson3publichouse.Main" />
+    <module name="VovkaSOL-sbt-school" />
+    <option name="PROGRAM_PARAMETERS" value="1 2 9 10" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

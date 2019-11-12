@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/customiterator/CustomReverseIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/customiterator/CustomReverseIterator.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -91,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run lesson 3">
+  <component name="RunManager" selected="JUnit.Run lesson 2 Tests">
     <configuration name="AllTestsFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson2marry.zags.AllTestsFactory" />
       <module name="VovkaSOL-sbt-school" />
@@ -141,7 +142,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96c526d5-4f04-49c0-9f64-0d2dc7475ab8" name="Default Changelist" comment="" />
+      <changelist id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="" />
       <created>1573037111370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573462152365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="delete unused class">
+      <created>1573464073943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573464073943</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -207,12 +215,28 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feature" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add maven and junit with 1 error" />
     <MESSAGE value="add junit and maven without errors" />
     <MESSAGE value="SBS-L3 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L3 complete" />
+    <MESSAGE value="delete unused class" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unused class" />
   </component>
 </project>

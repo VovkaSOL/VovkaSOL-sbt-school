@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/countmap/CountMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/countmap/UserMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/VovkaSOL-sbt-school.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/countmap/CountMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/countmap/UserMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/customiterator/CustomReverseIterator.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,10 +98,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Run lesson 2 Tests">
+  <component name="RunManager" selected="Application.Run lesson 4">
     <configuration name="AllTestsFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson2marry.zags.AllTestsFactory" />
       <module name="VovkaSOL-sbt-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run lesson 4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson4generics.Main" />
+      <module name="VovkaSOL-sbt-school" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 9 10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
@@ -127,6 +147,7 @@
       <item itemvalue="Application.Run lesson 1" />
       <item itemvalue="Application.Run lesson 2" />
       <item itemvalue="Application.Run lesson 3" />
+      <item itemvalue="Application.Run lesson 4" />
       <item itemvalue="Application.AllTestsFactory" />
       <item itemvalue="JUnit.Run lesson 2 Tests" />
     </list>
@@ -238,5 +259,16 @@
     <MESSAGE value="SBS-L3 complete" />
     <MESSAGE value="delete unused class" />
     <option name="LAST_COMMIT_MESSAGE" value="delete unused class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/countmap/UserMap.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

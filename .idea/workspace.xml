@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/countmap/CountMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/countmap/UserMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/VovkaSOL-sbt-school.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/countmap/CountMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/countmap/UserMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573464073943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SBS-L4 part 1 ready">
+      <created>1573560833957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573560833957</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -258,7 +258,8 @@
     <MESSAGE value="add junit and maven without errors" />
     <MESSAGE value="SBS-L3 complete" />
     <MESSAGE value="delete unused class" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete unused class" />
+    <MESSAGE value="SBS-L4 part 1 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="SBS-L4 part 1 ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

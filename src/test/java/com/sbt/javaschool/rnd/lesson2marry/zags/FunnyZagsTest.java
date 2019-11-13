@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 
-class FunnyZagsTest  {
+public class FunnyZagsTest  {
 
     @BeforeAll
     public static void beforeAll() {

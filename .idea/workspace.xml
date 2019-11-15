@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L4 complete">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main$2.class" afterDir="false" />
+    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson2marry/zags/FunnyZagsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson2marry/zags/FunnyZagsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/VovkaSOL-sbt-school-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/VovkaSOL-sbt-school.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson2marry/zags/FunnyZagsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson2marry/zags/FunnyZagsTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,10 +64,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -92,9 +79,9 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn validate" />
       <command value="mvn clean" />
       <command value="mvn compile" />
+      <command value="mvn validate" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -109,24 +96,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Run lesson 4 Tests">
-    <configuration name="AllTestsFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson2marry.zags.AllTestsFactory" />
+  <component name="RunManager" selected="Application.Run lesson 3">
+    <configuration name="Run lesson 3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson3publichouse.Main" />
       <module name="VovkaSOL-sbt-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run lesson 4" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson4generics.Main" />
-      <module name="VovkaSOL-sbt-school" />
-      <option name="PROGRAM_PARAMETERS" value="1 2 9 10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
@@ -154,45 +127,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run lesson 4 Tests" type="JUnit" factoryName="JUnit">
-      <module name="VovkaSOL-sbt-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sbt.javaschool.rnd.lesson4generics" />
-      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson4generics.Main" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Run lesson 1" />
       <item itemvalue="Application.Run lesson 2" />
       <item itemvalue="Application.Run lesson 3" />
-      <item itemvalue="Application.Run lesson 4" />
-      <item itemvalue="Application.AllTestsFactory" />
       <item itemvalue="JUnit.Run lesson 2 Tests" />
-      <item itemvalue="JUnit.Run lesson 4 Tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AllTestsFactory" />
-        <item itemvalue="Application.AllTestsFactory" />
-        <item itemvalue="Application.AllTestsFactory" />
-        <item itemvalue="Application.AllTestsFactory" />
-        <item itemvalue="Application.AllTestsFactory" />
+        <item itemvalue="Application.Run lesson 3" />
+        <item itemvalue="Application.Run lesson 3" />
+        <item itemvalue="Application.Run lesson 3" />
+        <item itemvalue="Application.Run lesson 3" />
+        <item itemvalue="Application.Run lesson 3" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="" />
+      <changelist id="96c526d5-4f04-49c0-9f64-0d2dc7475ab8" name="Default Changelist" comment="" />
       <created>1573037111370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -226,28 +182,7 @@
       <option name="project" value="LOCAL" />
       <updated>1573050507647</updated>
     </task>
-    <task id="LOCAL-00005" summary="SBS-L3 complete">
-      <created>1573462152365</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1573462152365</updated>
-    </task>
-    <task id="LOCAL-00006" summary="delete unused class">
-      <created>1573464073943</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1573464073943</updated>
-    </task>
-    <task id="LOCAL-00007" summary="SBS-L4 part 1 ready">
-      <created>1573560833957</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1573560833957</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -272,45 +207,11 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="feature" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add maven and junit with 1 error" />
     <MESSAGE value="add junit and maven without errors" />
-    <MESSAGE value="SBS-L3 complete" />
-    <MESSAGE value="delete unused class" />
-    <MESSAGE value="SBS-L4 part 1 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L4 part 1 ready" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson4generics/Main.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="add junit and maven without errors" />
   </component>
 </project>

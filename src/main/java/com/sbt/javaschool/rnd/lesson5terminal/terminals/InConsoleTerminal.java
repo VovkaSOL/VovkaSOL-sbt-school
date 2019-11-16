@@ -6,8 +6,8 @@ import com.sbt.javaschool.rnd.lesson5terminal.servers.SberServerApi;
 import java.util.Scanner;
 
 public class InConsoleTerminal implements Terminal {
-    private SberServerApi server=null;
-    private Integer UserId = 0;
+    private SberServerApi server;
+    private Integer UserId;
     public InConsoleTerminal(Integer UserId, SberServerApi serverApi){
         server=serverApi;
         this.UserId=UserId;
@@ -17,8 +17,7 @@ public class InConsoleTerminal implements Terminal {
     @Override
     public String readPinCode() {
             Scanner scanner=new Scanner(System.in);
-            String Pin=scanner.nextLine();
-            return Pin;
+            return scanner.nextLine();
     }
 
     // реализуем интерфейс Terminal в зависимости от выбранного терминала доступа к серверу
@@ -35,17 +34,25 @@ public class InConsoleTerminal implements Terminal {
         System.out.println("1 - Узнать баланс");
         System.out.println("2 - Снять деньги");
         System.out.println("3 - Внести деньги");
+        System.out.println("4 - Завершить работу");
         Scanner scanner=new Scanner(System.in);
         int num=scanner.nextInt();
         TerminalState state=TerminalState.NOAUTHORIZED;
         if(num==1) state=TerminalState.SHOWBALANCE;
         if(num==2) state=TerminalState.GETMONEY;
         if(num==3) state=TerminalState.INSERTMONEY;
+        if(num==4) state=TerminalState.CLOSECONNECTION;
         return state;
     }
 
     @Override
-    public void showUserWarning(String text) {
+    public int InputCashCnt() {
+        Scanner scanner=new Scanner(System.in);
+        return scanner.nextInt();
+     }
+
+    @Override
+    public void showUserMessage(String text) {
         System.out.println(text);
     }
 

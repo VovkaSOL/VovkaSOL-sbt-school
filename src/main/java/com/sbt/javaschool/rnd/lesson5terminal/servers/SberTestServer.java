@@ -1,6 +1,7 @@
 package com.sbt.javaschool.rnd.lesson5terminal.servers;
 
 import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.AccountIsLockedException;
+import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.NotEnoughMoneyException;
 import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.PinValidationOnServerException;
 
 public class SberTestServer implements SberServerApi {
@@ -22,16 +23,17 @@ public class SberTestServer implements SberServerApi {
     }
 
     @Override
-    public Boolean getCashFromServerToUser(String Token, Double cash) {
+    public Boolean getCashFromServerToUser(String Token, Integer cash) throws NotEnoughMoneyException {
         if(testBalance>cash){
             testBalance-=cash;
             return true;
         }
-        return false;
+        else throw new NotEnoughMoneyException();
     }
 
+
     @Override
-    public void receiveCashFromUserToServer(String Token, Double cash) {
+    public void receiveCashFromUserToServer(String Token, Integer cash) {
             testBalance+=cash;
        }
 

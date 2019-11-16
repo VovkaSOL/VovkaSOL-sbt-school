@@ -4,7 +4,6 @@ import com.sbt.javaschool.rnd.lesson5terminal.servers.SberServerApi;
 
 public class WebTerminal implements Terminal
 {
-
     @Override
     public String readPinCode() {
         return null;
@@ -21,8 +20,13 @@ public class WebTerminal implements Terminal
     }
 
     @Override
-    public void showUserWarning(String text) {
+    public void showUserMessage(String text) {
 
+    }
+
+    @Override
+    public int InputCashCnt() {
+        return 0;
     }
 
     @Override

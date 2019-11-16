@@ -1,12 +1,12 @@
 package com.sbt.javaschool.rnd.lesson5terminal.terminals;
 
+
 // я бы сделал Terminal не интерфейсом, а абстрактным классом, чтобы защитить методы от переопределения,
 // но в задании указано реализовать интерфейс Terminal, так что пишем интерфейс
+// дефолтной с логикой в дефолтных методах интерфейса
 
 import com.sbt.javaschool.rnd.lesson5terminal.pin.PinBaseValidator;
-import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.AccountIsLockedException;
-import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.PinValidationOnServerException;
-import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.UserPinInputException;
+import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.*;
 import com.sbt.javaschool.rnd.lesson5terminal.servers.SberServerApi;
 import sun.plugin2.message.GetAppletMessage;
 
@@ -30,11 +30,28 @@ public interface Terminal extends Runnable, PinBaseValidator {
                     break;
                 case SHOWBALANCE:
                     Double bal=getServer().getUserBalance(getServer().getToken());
+                    showUserMessage("Ваш баланс = "+bal.toString());
                     state=TerminalState.AUTHORIZED;
                     break;
+                case GETMONEY:
+                    showUserMessage("Введите сумму");
+                    Integer cash=InputCashCnt();
+                    getMoney(cash);
+                    state=TerminalState.AUTHORIZED;
+                    break;
+                case INSERTMONEY:
+                    showUserMessage("Внесите Ваши купюры");
+                    Integer cashIn=InputCashCnt();
+                    insertMoney(cashIn);
+                    state=TerminalState.AUTHORIZED;
+                    break;
+                case CLOSECONNECTION:
+                    break;
             }
+
             Thread.yield();
         }
+        showUserMessage("Сеанс окончен");
     }
     public default void startParallelTerminalThread()
     {
@@ -49,7 +66,7 @@ public interface Terminal extends Runnable, PinBaseValidator {
         try {
             this.validateUserPinInput(readPin);
         } catch (UserPinInputException e) {
-            showUserWarning(e.getMessage());
+            showUserMessage(e.getMessage());
             return TerminalState.NOAUTHORIZED;
         }
         //аутентификация на сервере
@@ -57,21 +74,48 @@ public interface Terminal extends Runnable, PinBaseValidator {
             getServer().validateUserPinOnServer(getUserId(),getMD5(readPin));
         }
         catch (PinValidationOnServerException e){//ошибка ввода пина
-            showUserWarning(e.getMessage());
+            showUserMessage(e.getMessage());
             return TerminalState.NOAUTHORIZED;
         }
         catch (AccountIsLockedException e){//аккаунт заблокирован
-            showUserWarning(e.getMessage());
+            showUserMessage(e.getMessage());
             return TerminalState.NOAUTHORIZED;
         }
         //если ничего не выбросило до этого момента, значит авторизация прошла успешно
         return TerminalState.AUTHORIZED;//права на работу со счетом предоставлены
 
     }
+
+    public default TerminalState getMoney(Integer cash){
+        try{
+            getServer().getCashFromServerToUser(getServer().getToken(),cash);
+        } catch (NotEnoughMoneyException e) {
+            showUserMessage("Недостаточно денег на Вашем счету");
+            return TerminalState.AUTHORIZED;
+        } catch (ConnectionProblemException e) {
+            showUserMessage("Возникли проблемы с сетью");
+            return TerminalState.AUTHORIZED;
+        }
+        showUserMessage("Ожидайте выдачи денег из Вашего ноутбука :-)");
+        return TerminalState.AUTHORIZED;
+    }
+
+    public default void insertMoney(Integer cash){
+        try{
+            getServer().receiveCashFromUserToServer(getServer().getToken(),cash);
+        } catch (InsertMoneyException e) {
+            showUserMessage("Ошибка при вводе денег");
+        } catch (ConnectionProblemException e) {
+            showUserMessage("Возникли проблемы с сетью");
+        }
+        showUserMessage("Ваш баланс успешно пополнен");
+    }
+
     public String readPinCode();//реализация будет зависеть от выбранного терминала
     public void showStartScreen();//реализация будет зависеть от выбранного терминала
     public TerminalState showLogicScreen();//реализация будет зависеть от выбранного терминала
-    public void showUserWarning(String text);//реализация будет зависеть от выбранного терминала
+    public void showUserMessage(String text);//реализация будет зависеть от выбранного терминала
+    public int InputCashCnt();//запросить у пользователя ввести сумму на снятие или пополнение
     SberServerApi getServer();
     Long getUserId();
 

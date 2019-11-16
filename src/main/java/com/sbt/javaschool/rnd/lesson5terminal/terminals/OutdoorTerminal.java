@@ -20,8 +20,13 @@ public class OutdoorTerminal implements Terminal {
     }
 
     @Override
-    public void showUserWarning(String text) {
+    public void showUserMessage(String text) {
 
+    }
+
+    @Override
+    public int InputCashCnt() {
+        return 0;
     }
 
     @Override

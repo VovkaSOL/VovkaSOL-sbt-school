@@ -1,7 +1,6 @@
 package com.sbt.javaschool.rnd.lesson5terminal.servers;
 
-import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.AccountIsLockedException;
-import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.PinValidationOnServerException;
+import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.*;
 
 public interface SberServerApi {
     //пин отправляется серверу в виде MD5 hash
@@ -12,10 +11,10 @@ public interface SberServerApi {
     Double getUserBalance(String Token);
 
     //запрос на снятие денег со счета на сервере по токену
-    Boolean getCashFromServerToUser(String Token, Double cash);
+    Boolean getCashFromServerToUser(String Token, Integer cash) throws NotEnoughMoneyException, ConnectionProblemException;
 
     //запрос на пополнение денег на счет на сервере по токену
-    void receiveCashFromUserToServer(String Token, Double cash);
+    void receiveCashFromUserToServer(String Token, Integer cash) throws InsertMoneyException, ConnectionProblemException;;
 
     // getter для полученного токена
     String getToken();

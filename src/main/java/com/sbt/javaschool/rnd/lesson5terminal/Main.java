@@ -7,7 +7,7 @@ import com.sbt.javaschool.rnd.lesson5terminal.terminals.Terminal;
 
 public class Main {
     public static void main(String[] args) {
-        //dependency injection, можем подкидывать любой сервер к нашему терминалу
+        //можем подкидывать любой сервер к нашему терминалу
         //для тестов будем подкидывать тестовый сервер
         Terminal st= new InConsoleTerminal(12345, new SberTestServer());
     }

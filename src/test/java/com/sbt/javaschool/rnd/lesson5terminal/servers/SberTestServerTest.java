@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 // это только шаблон, сгенерированный SquareTest генератором
-
+// тут чушь
 class SberTestServerTest {
 
     private SberTestServer sberTestServerUnderTest;

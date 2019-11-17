@@ -8,7 +8,6 @@ package com.sbt.javaschool.rnd.lesson5terminal.terminals;
 import com.sbt.javaschool.rnd.lesson5terminal.pin.PinBaseValidator;
 import com.sbt.javaschool.rnd.lesson5terminal.sberexceptions.*;
 import com.sbt.javaschool.rnd.lesson5terminal.servers.SberServerApi;
-import sun.plugin2.message.GetAppletMessage;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

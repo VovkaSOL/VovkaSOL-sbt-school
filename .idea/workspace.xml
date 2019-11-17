@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L5 100% complete without tests (Base operations work in console terminal)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/terminals/JunitTestAutomaticTerminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/terminals/JunitTestServer.java" afterDir="false" />
+    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson5terminal/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/servers/SberTestServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/servers/SberTestServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/terminals/TerminalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/terminals/TerminalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/VovkaSOL-sbt-school.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/InConsoleTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/InConsoleTerminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$TerminalState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$TerminalState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573846216472</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SBS-L5 100% complete + add basic tests for main Terminal.java interface)">
+      <created>1574003572784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574003572784</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -296,7 +292,8 @@
     <MESSAGE value="add junit and maven without errors" />
     <MESSAGE value="SBS-L5 50% ready (Terminal interface, ServerApi interface, SberTestServer, ConsoleTerminal ...)" />
     <MESSAGE value="SBS-L5 100% complete without tests (Base operations work in console terminal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L5 100% complete without tests (Base operations work in console terminal)" />
+    <MESSAGE value="SBS-L5 100% complete + add basic tests for main Terminal.java interface)" />
+    <option name="LAST_COMMIT_MESSAGE" value="SBS-L5 100% complete + add basic tests for main Terminal.java interface)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

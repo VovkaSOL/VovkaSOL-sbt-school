@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson5terminal/README.md" afterDir="false" />
+    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L5 100% complete without tests (Base operations work in console terminal)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/servers/SberTestServerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson5terminal/servers/SberTestServerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/TerminalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/TerminalTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="TestMe with JUnit4 &amp; Mockito" />
+        <option value="JUnit5 Test Class" />
         <option value="TestMe with JUnit5 &amp; Mockito" />
         <option value="Class" />
       </list>
@@ -71,14 +77,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part1" />
       <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
       <recent name="com.sbt.javaschool.rnd.lesson2marry.zags" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -100,7 +107,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TerminalTest">
+  <component name="RunManager" selected="JUnit.Run lesson 6 Tests ">
     <configuration name="Run lesson 3" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson3publichouse.Main" />
       <module name="VovkaSOL-sbt-school" />
@@ -140,6 +147,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run lesson 6" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part1reflection.Main" />
+      <module name="VovkaSOL-sbt-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run all lessons tests" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="VovkaSOL-sbt-school" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run lesson 2 Tests" type="JUnit" factoryName="JUnit">
       <module name="VovkaSOL-sbt-school" />
       <extension name="coverage">
@@ -157,22 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SberTestServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VovkaSOL-sbt-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson5terminal.servers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sbt.javaschool.rnd.lesson5terminal.servers" />
-      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson5terminal.servers.SberTestServerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TerminalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Run lesson 5 Tests" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="VovkaSOL-sbt-school" />
       <extension name="coverage">
         <pattern>
@@ -182,7 +198,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
       <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson5terminal.terminals.TerminalTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run lesson 6 Tests " type="JUnit" factoryName="JUnit">
+      <module name="VovkaSOL-sbt-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson5terminal.terminals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part1reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part1reflection.ReflectionRecursiveMethodGetterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,15 +227,17 @@
       <item itemvalue="Application.Run lesson 2" />
       <item itemvalue="Application.Run lesson 4" />
       <item itemvalue="Application.Run lesson 5" />
+      <item itemvalue="Application.Run lesson 6" />
       <item itemvalue="Application.Run lesson 3" />
       <item itemvalue="JUnit.Run lesson 2 Tests" />
-      <item itemvalue="JUnit.SberTestServerTest" />
-      <item itemvalue="JUnit.TerminalTest" />
+      <item itemvalue="JUnit.Run lesson 6 Tests " />
+      <item itemvalue="JUnit.Run lesson 5 Tests" />
+      <item itemvalue="JUnit.Run all lessons tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TerminalTest" />
-        <item itemvalue="JUnit.SberTestServerTest" />
+        <item itemvalue="JUnit.Run all lessons tests" />
+        <item itemvalue="JUnit.Run lesson 5 Tests" />
         <item itemvalue="Application.Run lesson 3" />
         <item itemvalue="Application.Run lesson 3" />
         <item itemvalue="Application.Run lesson 3" />
@@ -302,6 +339,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson5terminal/servers/SberTestServer.java</url>
           <line>19</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/annotations/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/cheburnet/CheburnetApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/cheburnet/CheburnetSearchClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/annotations/Cache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/cheburnet/CheburnetApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/cheburnet/CheburnetSearchClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCacheTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCache.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +20,8 @@
         <option value="Interface" />
         <option value="TestMe with JUnit4 &amp; Mockito" />
         <option value="JUnit5 Test Class" />
-        <option value="TestMe with JUnit5 &amp; Mockito" />
         <option value="Class" />
+        <option value="TestMe with JUnit5 &amp; Mockito" />
       </list>
     </option>
   </component>
@@ -112,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Run all lessons tests">
+  <component name="RunManager" selected="JUnit.BeanUtilsTest">
     <configuration name="Run lesson 3" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson3publichouse.Main" />
       <module name="VovkaSOL-sbt-school" />
@@ -174,6 +166,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VovkaSOL-sbt-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part3beanutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part3beanutils" />
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part3beanutils.BeanUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -268,13 +275,14 @@
       <item itemvalue="JUnit.Run lesson 5 Tests" />
       <item itemvalue="JUnit.Run all lessons tests" />
       <item itemvalue="JUnit.RosComNadzorProxyWithCacheTest" />
+      <item itemvalue="JUnit.BeanUtilsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanUtilsTest" />
         <item itemvalue="JUnit.Run all lessons tests" />
         <item itemvalue="JUnit.RosComNadzorProxyWithCacheTest" />
         <item itemvalue="JUnit.Run lesson 5 Tests" />
-        <item itemvalue="Application.Run lesson 3" />
         <item itemvalue="Application.Run lesson 3" />
       </list>
     </recent_temporary>
@@ -339,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574018771835</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SBS-L6 60% (part 2 proxy with cache-100%)">
+      <created>1574172793303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574172793303</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -373,7 +388,8 @@
     <MESSAGE value="SBS-L5 100% complete without tests (Base operations work in console terminal)" />
     <MESSAGE value="SBS-L5 100% complete + add basic tests for main Terminal.java interface)" />
     <MESSAGE value="SBS-L6 20% (part 1 reflection-100%) (start using TDD at this time, write prototype-&gt;write tests-&gt;write full method)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L6 20% (part 1 reflection-100%) (start using TDD at this time, write prototype-&gt;write tests-&gt;write full method)" />
+    <MESSAGE value="SBS-L6 60% (part 2 proxy with cache-100%)" />
+    <option name="LAST_COMMIT_MESSAGE" value="SBS-L6 60% (part 2 proxy with cache-100%)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,6 +403,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetter.java</url>
           <line>15</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

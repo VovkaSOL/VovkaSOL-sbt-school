@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/AllLoadersInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLoderInformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/sms/SmsRuSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/trojans/AllTrojansInterface.java" afterDir="false" />
+    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L7 100% (Remote server classloader and local classloader for the same file names) may be add tests later">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/trojans/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr1/TrojanLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr1/TrojanLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr2/TrojanLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr2/TrojanLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr3/TrojanLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr3/TrojanLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr1/TrojanLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr1/TrojanLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr2/TrojanLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr2/TrojanLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr3/TrojanLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr3/TrojanLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrCompiler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/VovkaSOL-sbt-school-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sbt.javaschool.rnd.lesson2marry.zags.FunnyZagsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sbt.javaschool.rnd.lesson5terminal.terminals.TerminalTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sbt.javaschool.rnd.lesson2marry.zags.FunnyZagsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sbt.javaschool.rnd.lesson5terminal.terminals.TerminalTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/VovkaSOL-sbt-school.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/AllLoadersInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/AllLoadersInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/trojans/AllTrojansInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/VovkaSOL-sbt-school.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/LogParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/LogParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/AllLoadersInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/AllLoadersInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/trojans/AllTrojansInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/trojans/TrojanOnServer.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +98,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/sbt/javaschool/rnd/lesson5terminal/terminals" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -97,11 +111,18 @@
       <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
       <recent name="com.sbt.javaschool.rnd.lesson2marry.zags" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L7trojans\tr2" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L7trojans\tr1" />
+      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\L7trojans" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -422,7 +443,8 @@
     <MESSAGE value="SBS-L5 100% complete + add basic tests for main Terminal.java interface)" />
     <MESSAGE value="SBS-L6 20% (part 1 reflection-100%) (start using TDD at this time, write prototype-&gt;write tests-&gt;write full method)" />
     <MESSAGE value="SBS-L6 60% (part 2 proxy with cache-100%)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L6 60% (part 2 proxy with cache-100%)" />
+    <MESSAGE value="SBS-L7 100% (Remote server classloader and local classloader for the same file names) may be add tests later" />
+    <option name="LAST_COMMIT_MESSAGE" value="SBS-L7 100% (Remote server classloader and local classloader for the same file names) may be add tests later" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,9 +465,14 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="40" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/AllLoadersInterface.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

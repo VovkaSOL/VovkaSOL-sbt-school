@@ -3,17 +3,16 @@ package com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part2proxy;
 import com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part2proxy.annotations.Cache;
 import com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part2proxy.cheburnet.CheburnetApi;
 import com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part2proxy.cheburnet.CheburnetSearchClient;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Proxy;
 
 class RosComNadzorProxyWithCacheTest {
     @BeforeAll
-    public static void beforeAll() {
+    static void beforeAll() {
         System.out.println("Lesson 6 part 2 tests running");
     }
 

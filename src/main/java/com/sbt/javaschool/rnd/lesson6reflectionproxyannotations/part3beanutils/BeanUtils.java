@@ -31,7 +31,7 @@ public class BeanUtils {
                         Class<?>[] parTo = mto.getParameterTypes();   //не создавая объектов (так интереснее)
                         if (parTo[0].isAssignableFrom(retFrom)) {    //если параметры для to наследники ret параметров from
                             try {
-                                Object r = mfrom.invoke(from, null);
+                                Object r = mfrom.invoke(from);
                                 mto.invoke(to, r);//запускаем сеттер с параметрами, полученным  от геттера
                             } catch (IllegalAccessException e) {
                                 e.printStackTrace();

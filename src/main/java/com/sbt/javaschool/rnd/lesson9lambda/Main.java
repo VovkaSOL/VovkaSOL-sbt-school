@@ -3,6 +3,7 @@ package com.sbt.javaschool.rnd.lesson9lambda;
 import com.sbt.javaschool.rnd.lesson9lambda.nedostream.NedoStream;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -18,10 +19,11 @@ public class Main {
         System.out.println("Время выполнения = "+(stop-start)/1000000+" мсек");//мсек
 
 
-        NedoStream myS=new NedoStream();
-        myS.filter(x-> true)
-                .filter(x-> true)
-                .filter(x-> false);
+        NedoStream<Integer> myS=NedoStream.of(Arrays.asList(new Integer[] {1, 2, 9}))
+                .filter(x->x>5)
+                .filter(x->x<10)
+                .map(x->x*2);
+                myS.forEach(x->System.out.println(x));
 
     }
 }

@@ -1,237 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L8 90% (Deserialize .json and download photos in parallel mode)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239046/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239063/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239116/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239118/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457239341/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240347/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457240959/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457241354/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457247113/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263016/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263017/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457263018/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288901/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288902/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457288903/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544389/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544390/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544392/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L8ser/loaded/457544393/z.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VovkaSOL-sbt-school.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VovkaSOL-sbt-school.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr1/TrojanLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr2/TrojanLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SBS-L7trojans/tr3/TrojanLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr1/TrojanLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr2/TrojanLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SBS-L7trojans/tr3/TrojanLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson1args/args/ArgsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson1args/args/ArgsParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson2marry/zags/FunnyZags.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson2marry/zags/FunnyZags.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/LogParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson3publichouse/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/CollectionUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/countmap/UserMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/countmap/UserMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/pin/PinBaseValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/pin/PinBaseValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/InConsoleTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/InConsoleTerminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/Terminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrCompiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrCompiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanFromRemoteServerLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/loaders/TrojanLocalLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/sms/SmsRuSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson7trojanloader/sms/SmsRuSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson2marry/zags/FunnyZagsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/JunitTestAutomaticTerminal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/JunitTestServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson5terminal/terminals/TerminalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part1reflection/ReflectionRecursiveMethodGetterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part2proxy/RosComNadzorProxyWithCacheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest$mytestclass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest$mytestclass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -642,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574427777992</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="SBS-L9 10% custom stream">
+      <created>1575197000284</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575197000284</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -679,7 +461,8 @@
     <MESSAGE value="SBS-L6 60% (part 2 proxy with cache-100%)" />
     <MESSAGE value="SBS-L7 100% (Remote server classloader and local classloader for the same file names) may be add tests later" />
     <MESSAGE value="SBS-L8 90% (Deserialize .json and download photos in parallel mode)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L8 90% (Deserialize .json and download photos in parallel mode)" />
+    <MESSAGE value="SBS-L9 10% custom stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="SBS-L9 10% custom stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -710,9 +493,9 @@
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/Main.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="51" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

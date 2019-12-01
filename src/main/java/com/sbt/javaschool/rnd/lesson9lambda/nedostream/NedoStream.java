@@ -1,58 +1,68 @@
 package com.sbt.javaschool.rnd.lesson9lambda.nedostream;
 
-import com.sbt.javaschool.rnd.lesson4generics.CollectionUtils;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.function.Supplier;
 
-public class NedoStream<T>  {
-    public List<T> streamValues= new ArrayList<>();
-    List<Object> lazyMethodsOfStream= new ArrayList<>();
-    public NedoStream<T> filter(Predicate<? super T> p){
+public class NedoStream<T> {
+    Collection<T> streamValues;//ссылка на коллекцию с которой работает стрим
+    List<Object> lazyMethodsOfStream;//набор ленивых функций для дальнейшего прохождения по пайплайну
+
+    public NedoStream(Collection<T> collection, List<Object> lazyMethodsOfStream) {
+        this.streamValues = collection;
+        this.lazyMethodsOfStream = lazyMethodsOfStream;
+    }
+
+    public NedoStream<T> filter(Predicate<? super T> p) {
         lazyMethodsOfStream.add(p);
         return this;
     }
 
-    public NedoStream<T> map(Function<T,?> f){
-        lazyMethodsOfStream.add(f);
-        return this;
-    }
 
-    public static <T> NedoStream<T>  of(Collection <T> c){
-        NedoStream<T>  s=new NedoStream<>();
-        s.streamValues.addAll(c);
+    //map меняет тип данных в коллекции
+    public <R> NedoStream<R> map(Function<T, R> f) {
+        lazyMethodsOfStream.add(f);
+        //возвращаем стрим, типизированный типом возврата в Function ->R
+        NedoStream<R> s = new NedoStream(this.streamValues, this.lazyMethodsOfStream);
         return s;
     }
-    public <R> void forEach(Consumer<T> c){
-        lazyMethodsOfStream.add(c);
-        for(int m=0; m < lazyMethodsOfStream.size(); m++){
-            if(lazyMethodsOfStream.get(m) instanceof Predicate) {//filter
-                for(int i=0;i<streamValues.size();i++) {
-                    if(((Predicate) lazyMethodsOfStream.get(m)).test(streamValues.get(i))==false){
-                        streamValues.remove(i);
+
+    public static <T> NedoStream<T> of(Collection<T> c) {
+        NedoStream<T> s = new NedoStream<>(c, new ArrayList<>());
+        return s;
+    }
+
+    public <R> void forEach(Consumer<R> consumer) {
+        Iterator methodIterator=lazyMethodsOfStream.iterator();
+        while( methodIterator.hasNext()) {
+            Object m=methodIterator.next();
+            if (m instanceof Predicate) {//filter
+                Iterator iterator = streamValues.iterator();
+                while( iterator.hasNext()) {
+                    if (((Predicate) m).test(iterator.next()) == false) {
+                        iterator.remove();
                     }
                 }
+                methodIterator.remove();
+                continue;
             }
-            if(lazyMethodsOfStream.get(m) instanceof Function){//map
-                List<R> arr=new ArrayList<>();
-                for(int i=0;i<streamValues.size();i++) {
-                    arr.add((R)((Function) lazyMethodsOfStream.get(m)).apply(streamValues.get(i)));
+            if (m instanceof Function) {//map
+                List<R> arr = new ArrayList<>();
+                for (Iterator iterator = streamValues.iterator(); iterator.hasNext(); ) {
+                    arr.add((R) ((Function) m).apply(iterator.next()));
                 }
-                List<R>streamValues=new ArrayList<>(arr);
-            }
-            if(lazyMethodsOfStream.get(m) instanceof Consumer){//forEach
-                List<R> arr=new ArrayList<>();
-                for(int i=0;i<streamValues.size();i++) {
-                    ((Consumer) lazyMethodsOfStream.get(m)).accept(streamValues.get(i));
-                }
-                List<R>streamValues=new ArrayList<>(arr);
+                methodIterator.remove();
+                NedoStream<R> s = new NedoStream<>(arr, this.lazyMethodsOfStream);
+                s.forEach(consumer);
+                return;
             }
         }
+        for (Iterator iterator = streamValues.iterator(); iterator.hasNext(); ) {
+            consumer.accept((R) iterator.next());
+        }
     }
- }
+}

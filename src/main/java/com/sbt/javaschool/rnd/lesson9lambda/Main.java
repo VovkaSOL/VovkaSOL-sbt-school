@@ -22,7 +22,7 @@ public class Main {
                 .map(x->x.toString())
                 .forEach(x->System.out.println(x));
         long stop=System.nanoTime();
-        System.out.println("Время выполнения Stream = "+(stop-start)/1000000+" мсек");//мсек
+        System.out.println("Время выполнен-ия Stream = "+(stop-start)/1000000+" мсек");//мсек
 
         start=System.nanoTime();
         NedoStream.of(list)

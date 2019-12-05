@@ -24,7 +24,7 @@ public class Main {
 
         ObjectMapper mapper = new ObjectMapper();//инициализация библиотеки Jackson
         Example ex = (Example) mapper.readValue(new FileInputStream(filePath2), Example.class);
-        for (Item item:ex.getResponse().getItems()){
+        for(Item item:ex.getResponse().getItems()){
                 download(item,item.getId().toString());
         }
     }

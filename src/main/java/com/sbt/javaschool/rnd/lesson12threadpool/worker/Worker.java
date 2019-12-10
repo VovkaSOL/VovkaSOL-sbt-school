@@ -15,14 +15,8 @@ public class Worker  implements Callable<Map<String,Integer>> {
     private Map<String,Integer> results = new HashMap<>();
     public Worker(String fileName) {
         workFileName=fileName;
-        thread = new Thread(this, "ThreadWithFile="+workFileName);
-        thread.start();
-    }
-    public boolean isAlive() {
-        return thread.isAlive();
     }
 
-    @Override
     public void run() {
         readFileAndPutWordsToSet();
     }
@@ -51,6 +45,7 @@ public class Worker  implements Callable<Map<String,Integer>> {
 
     @Override
     public Map<String,Integer> call() throws Exception {
-        return null;
+        readFileAndPutWordsToSet();
+        return results;
     }
 }

@@ -1,6 +1,6 @@
 package com.sbt.javaschool.rnd.lesson12threadpool.scheduler;
 
-import com.sbt.javaschool.rnd.lesson11threads.worker.Worker;
+import com.sbt.javaschool.rnd.lesson12threadpool.worker.Worker;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -43,11 +43,12 @@ public class Sсheduler {
                               entry.getKey(),
                               entry.getValue(),
                               (key, value) -> entry.getValue()   + value));
-       ]   } catch (InterruptedException | ExecutionException e) {
+          } catch (InterruptedException | ExecutionException e) {
               System.out.println("Поток был прерван, но у нас никакой логики в такой ситуации, просто пропускаем");
               e.printStackTrace();
           }
       }
+        executorService.shutdown();
       //System.out.println(resultSetOfUnicalWordsInAllFiles);
     }
 

@@ -1,6 +1,7 @@
 package com.sbt.javaschool.rnd.lesson12threadpool;
 
-import com.sbt.javaschool.rnd.lesson11threads.sсheduler.Sсheduler;
+
+import com.sbt.javaschool.rnd.lesson12threadpool.scheduler.Sсheduler;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class Main {
 
         long minTime=100000000000000L;
         int bestCntThreads=0;
-        for(int i=1;i<10;i++) {
+        for(int i=6;i>0;i--) {
             long start = System.nanoTime();
             startScheduler(i);
             long time = (System.nanoTime() - start);

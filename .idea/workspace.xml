@@ -2,32 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L11threads/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L11threads/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L11threads/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L11threads/file4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SBS-L11threads/file5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L11threads/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L11threads/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L11threads/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L11threads/file4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SBS-L11threads/file5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/sсheduler/Sсheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/worker/Worker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/lesson8lambda/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/lesson8lambda/MyStream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/sbt/javaschool/rnd/lesson10socialnetwork/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/resources/SBS-L11threads/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/resources/SBS-L11threads/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/resources/SBS-L11threads/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/resources/SBS-L11threads/file4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/resources/SBS-L11threads/file5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/scheduler/Sсheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/worker/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson11threads/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson11threads/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson11threads/sсheduler/Sсheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson11threads/sсheduler/Sсheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson11threads/worker/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson11threads/worker/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8lambda/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8lambda/MyStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson8lambda/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lesson8lambda/MyStream.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +97,8 @@
       <recent name="com.sbt.javaschool.rnd.training.spring.test1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sbt.javaschool.rnd.lesson12threadpool.scheduler" />
+      <recent name="com.sbt.javaschool.rnd.lesson12threadpool.worker" />
       <recent name="com.sbt.javaschool.rnd.lesson9lambda.nedostream" />
       <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
     </key>
@@ -141,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run lesson 11">
+  <component name="RunManager" selected="Application.Run lesson 12">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.training.spring.test1.Main" />
       <module name="VovkaSOL-sbt-school" />
@@ -159,6 +144,21 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson11threads.Main" />
+      <module name="VovkaSOL-sbt-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson2marry.zags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run lesson 12" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson12threadpool.Main" />
       <module name="VovkaSOL-sbt-school" />
       <extension name="coverage">
         <pattern>
@@ -354,6 +354,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Run lesson 3" />
       <item itemvalue="Application.Run lesson 1" />
       <item itemvalue="Application.Run lesson 2" />
       <item itemvalue="Application.Run lesson 4" />
@@ -364,6 +365,7 @@
       <item itemvalue="Application.Run lesson 8" />
       <item itemvalue="Application.Run lesson 9" />
       <item itemvalue="Application.Run lesson 11" />
+      <item itemvalue="Application.Run lesson 12" />
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Run lesson 2 Tests" />
       <item itemvalue="JUnit.Run lesson 6 Tests " />

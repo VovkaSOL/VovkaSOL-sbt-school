@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L14 10">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson14gc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson12threadpool/scheduler/Sсheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson12threadpool/worker/Worker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson14gc/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/test/java/com/sbt/javaschool/rnd/lesson9lambda/NedoStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/sсheduler/Sсheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/sсheduler/Sсheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/worker/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson11threads/worker/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson4generics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson6reflectionproxyannotations/part3beanutils/BeanUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson8serialization/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson9lambda/nedostream/NedoStream.class" afterDir="false" />
-    </list>
+    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L12 30%  create worker and scheduler with executor and future task" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +35,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +67,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -517,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575995493775</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SBS-L14 garbage collector experiments">
+      <created>1576572369117</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576572369117</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -558,7 +548,8 @@
     <MESSAGE value="SBS-L9 30% custom stream" />
     <MESSAGE value="SBS-L11 10%  create worker and scheduler" />
     <MESSAGE value="SBS-L12 30%  create worker and scheduler with executor and future task" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L12 30%  create worker and scheduler with executor and future task" />
+    <MESSAGE value="SBS-L14 garbage collector experiments" />
+    <option name="LAST_COMMIT_MESSAGE" value="SBS-L14 garbage collector experiments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

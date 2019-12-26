@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="SBS-L12 30%  create worker and scheduler with executor and future task">
+    <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/scheduler/Sсheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/scheduler/Sсheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/worker/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson12threadpool/worker/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/VovkaSOL-sbt-school.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson12threadpool/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sbt/javaschool/rnd/lesson12threadpool/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/training/gittest" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/training/gittest" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/nedostream" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/SBS-L11threads" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -490,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575995493775</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test git 2">
+      <created>1577388521433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577388521433</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test git 3">
+      <created>1577388602702</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577388602702</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -531,7 +541,9 @@
     <MESSAGE value="SBS-L9 30% custom stream" />
     <MESSAGE value="SBS-L11 10%  create worker and scheduler" />
     <MESSAGE value="SBS-L12 30%  create worker and scheduler with executor and future task" />
-    <option name="LAST_COMMIT_MESSAGE" value="SBS-L12 30%  create worker and scheduler with executor and future task" />
+    <MESSAGE value="test git 2" />
+    <MESSAGE value="test git 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

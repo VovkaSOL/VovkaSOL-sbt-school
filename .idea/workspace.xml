@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f91463-bb8d-4691-8eff-96a524b53e32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson13GOFno/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson13GOFno/facade/CarManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson13GOFno/facade/factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson13GOFno/facade/factory/builder/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson13GOFno/facade/factory/builder/CarBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/training/gittest" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/training/gittest" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +69,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/sbt/javaschool/rnd/lesson9lambda/nedostream" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/SBS-L11threads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,6 +77,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sbt.javaschool.rnd.lesson13GOFno.factory" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sbt.javaschool.rnd.lesson9lambda.nedostream" />
       <recent name="com.sbt.javaschool.rnd.lesson6reflectionproxyannotations.part1" />
@@ -82,12 +89,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L7trojans\tr1" />
-      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\L7trojans" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sbt.javaschool.rnd.training.spring.test1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Vovan\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L11threads" />
+      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L7trojans\tr2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sbt.javaschool.rnd.lesson12threadpool.scheduler" />
@@ -95,9 +102,9 @@
       <recent name="com.sbt.javaschool.rnd.lesson9lambda.nedostream" />
       <recent name="com.sbt.javaschool.rnd.lesson5terminal.terminals" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Vovan\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L11threads" />
-      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L7trojans\tr2" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\SBS-L7trojans\tr1" />
+      <recent name="C:\Users\kto29\IdeaProjects\VovkaSOL-sbt-school\src\main\resources\L7trojans" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -119,13 +126,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run lesson 12">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.training.spring.test1.Main" />
+  <component name="RunManager" selected="Application.Lesson 13 gof">
+    <configuration name="Lesson 13 gof" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sbt.javaschool.rnd.lesson13GOFno.Main" />
       <module name="VovkaSOL-sbt-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sbt.javaschool.rnd.training.spring.test1.*" />
+          <option name="PATTERN" value="com.sbt.javaschool.rnd.lesson13GOFno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,7 +366,7 @@
       <item itemvalue="Application.Run lesson 9" />
       <item itemvalue="Application.Run lesson 11" />
       <item itemvalue="Application.Run lesson 12" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Lesson 13 gof" />
       <item itemvalue="JUnit.Run lesson 2 Tests" />
       <item itemvalue="JUnit.Run lesson 6 Tests " />
       <item itemvalue="JUnit.Run all lessons tests" />
@@ -369,11 +376,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson 13 gof" />
         <item itemvalue="JUnit.NedoStreamTest" />
         <item itemvalue="JUnit.BeanUtilsTest" />
         <item itemvalue="JUnit.RosComNadzorProxyWithCacheTest" />
         <item itemvalue="JUnit.Run all lessons tests" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577388602702</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="test git 4">
+      <created>1577388656603</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577388656603</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -543,7 +557,8 @@
     <MESSAGE value="SBS-L12 30%  create worker and scheduler with executor and future task" />
     <MESSAGE value="test git 2" />
     <MESSAGE value="test git 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git 3" />
+    <MESSAGE value="test git 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
